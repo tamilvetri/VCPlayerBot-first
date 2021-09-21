@@ -229,5 +229,5 @@ async def not_chat(_, m: Message):
             InlineKeyboardButton('🧩 Join Here', url='https://t.me/subin_works'),
         ]
         ]
-    await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/subinps/VCPlayerBot) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+    await m.reply("<b>Hi I'm busy right now please wait. \n\n join my channel @tentkotta4k</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
 
