@@ -61,7 +61,7 @@ async def show_help(client, message):
 async def admin_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('📥 Movies Channel', url='https://t.me/tentkotta4g),
+            InlineKeyboardButton('📥 Movies Channel', url='https://t.me/tentkotta4g)
             InlineKeyboardButton('👉 Movies Request', url='https://t.me/tentkotta4k_requests'),
             
         ],
