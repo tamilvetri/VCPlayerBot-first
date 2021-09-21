@@ -22,8 +22,8 @@ from logger import LOGGER
 
 buttons = [
     [
-        InlineKeyboardButton('⚡️Make Own Bot', url='https://github.com/subinps/VCPlayerBot'),
-        InlineKeyboardButton('🧩 Join Here', url='https://t.me/subin_works'),
+        InlineKeyboardButton('📥 Movies Channel', url='https://t.me/tentkotta4g'),
+        InlineKeyboardButton('👉 Movies Request', url='https://t.me/tentkotta4k_requests'),
     ]
     ]
 def get_cmd(dur):
