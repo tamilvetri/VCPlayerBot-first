@@ -46,8 +46,8 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/VCPlayerBot'),
+            InlineKeyboardButton('📥 Movies Channel', url='https://t.me/tentkotta4g'),
+            InlineKeyboardButton('👉 Movies Request', url='https://t.me/tentkotta4k_requests'),
         ]
         ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -57,16 +57,16 @@ async def show_help(client, message):
         Config.HELP,
         reply_markup=reply_markup
         )
-@Client.on_message(filters.command(['repo', f"repo@{Config.BOT_USERNAME}"]))
-async def repo_(client, message):
+@Client.on_message(filters.command(['admin', f"repo@{Config.BOT_USERNAME}"]))
+async def admin_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🧩 Repository', url='https://github.com/subinps/VCPlayerBot'),
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
+            InlineKeyboardButton('📥 Movies Channel', url='https://t.me/tentkotta4g),
+            InlineKeyboardButton('👉 Movies Request', url='https://t.me/tentkotta4k_requests'),
             
         ],
     ]
-    await message.reply("<b>The source code of this bot is public and can be found at <a href=https://github.com/subinps/VCPlayerBot>VCPlayerBot.</a>\nYou can deploy your own bot and use in your group.\n\nFeel free to star☀️ the repo if you liked it 🙃.</b>", reply_markup=InlineKeyboardMarkup(buttons))
+    await message.reply("<b> my name @shareads_admin \n\n join my channels", reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_message(filters.command(['restart', 'update', f"restart@{Config.BOT_USERNAME}", f"update@{Config.BOT_USERNAME}"]) & admin_filter)
 async def update_handler(client, message):
